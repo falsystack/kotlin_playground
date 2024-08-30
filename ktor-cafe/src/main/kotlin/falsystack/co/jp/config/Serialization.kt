@@ -1,4 +1,4 @@
-package falsystack.co.jp.plugins
+package falsystack.co.jp.config
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
