@@ -1,6 +1,8 @@
 package falsystack.co.jp
 
-import falsystack.co.jp.config.*
+import falsystack.co.jp.config.configureDatabase
+import falsystack.co.jp.config.configureRouting
+import falsystack.co.jp.config.configureSerialization
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -11,6 +13,7 @@ fun main() {
 }
 
 fun Application.module() {
+    configureDatabase()
     configureSerialization()
     configureRouting()
 }

@@ -1,4 +1,4 @@
-package falsystack.co.jp.model
+package falsystack.co.jp.domain.model
 
 import falsystack.co.jp.shared.CafeMenuCategory
 import kotlinx.serialization.Serializable
