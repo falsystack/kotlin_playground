@@ -12,3 +12,5 @@ enum class CafeOrderStatus {
     COMPLETE,
     CANCEL
 }
+
+enum class CafeUserRole { CUSTOMER, ADMINISTER }

@@ -1,6 +1,6 @@
 package falsystack.co.jp.shared
 
-import falsystack.co.jp.model.CafeMenu
+import falsystack.co.jp.domain.model.CafeMenu
 
 val menuList = listOf(
     CafeMenu(
