@@ -21,6 +21,7 @@ repositories {
 }
 
 dependencies {
+    implementation("io.ktor:ktor-server-content-negotiation")
     implementation("io.ktor:ktor-server-core-jvm")
     implementation("io.ktor:ktor-server-netty-jvm")
     implementation("ch.qos.logback:logback-classic:$logback_version")
