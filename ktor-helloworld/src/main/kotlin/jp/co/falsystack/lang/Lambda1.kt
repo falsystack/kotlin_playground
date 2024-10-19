@@ -11,4 +11,5 @@ fun main() {
     val b = 5
     println(nonLambdaAdd(a, b))
     println(lambdaAdd(a, b))
+    println(lambdaAdd.invoke(a,b))
 }
